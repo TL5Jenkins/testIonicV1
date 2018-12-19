@@ -1,0 +1,8 @@
+{
+  "name": "ePod",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "649e6be9"
+}

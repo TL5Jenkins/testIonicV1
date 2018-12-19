@@ -1,0 +1,38 @@
+<ion-split-pane>
+    <ion-menu side="end">
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Hi Jey</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-list>
+          <ion-menu-toggle auto-hide="false"  >
+            <ion-item>
+              <ion-icon slot="start" name="barcode"></ion-icon>
+              <ion-label>
+                Capture QR Code
+              </ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+          <ion-menu-toggle auto-hide="false"  >
+            <ion-item >
+              <ion-icon slot="start" name="text"></ion-icon>
+              <ion-label>
+                Feedback
+              </ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+          <ion-menu-toggle auto-hide="false"  >
+            <ion-item>
+              <ion-icon slot="start" name="clipboard"></ion-icon>
+              <ion-label>
+                Terms and conditions
+              </ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet></ion-router-outlet>
+  </ion-split-pane>
