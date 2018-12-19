@@ -30,7 +30,10 @@ export class ActivatePage implements OnInit {
       );
 
       this.sim.requestReadPermission().then(
-        () => console.log('Permission granted'),
+        () => {
+          console.log('Permission granted');
+          this.simInfo = 'permission granted';
+        },
         () => console.log('Permission denied')
       );
     });
